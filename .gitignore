@@ -12,6 +12,7 @@ target/
 .settings
 .springBeans
 .sts4-cache
+.gradle
 
 ### IntelliJ IDEA ###
 .idea
@@ -31,7 +32,6 @@ build/
 
 ### VS Code ###
 .vscode/
-src/main/resources/configs/*
-src/main/resources/application.yml
-src/main/resources/server.jks
-!src/main/resources/configs/.gitkeep
+
+src/main/resources
+gradle/**
