@@ -1,4 +1,4 @@
-package yummers.cloudconfig;
+package bworks.cloudconfig;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
