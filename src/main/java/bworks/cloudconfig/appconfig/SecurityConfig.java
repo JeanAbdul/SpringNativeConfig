@@ -1,4 +1,4 @@
-package yummers.cloudconfig.appconfig;
+package bworks.cloudconfig.appconfig;
 
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 
@@ -29,9 +29,4 @@ public class SecurityConfig {
     return http.build();
   }
 
-  @Bean
-  public PasswordEncoder passwordEncoder() {
-    // Utiliser BCrypt pour encoder les mots de passe
-    return new BCryptPasswordEncoder();
-  }
 }
